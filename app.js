@@ -13,7 +13,7 @@ app.use('/static',express.static('static'));
 app.use(express.urlencoded());
 app.set('views', path.join(__dirname,'views'));
 
-mongoose.connect('mongodb+srv://manish:manish1409@cluster0.ryh38.mongodb.net/stjosephData?retryWrites=true&w=majority',{
+mongoose.connect('mongodb://localhost/test',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

@@ -1,0 +1,43 @@
+
+.staff {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: b#e7e7e7;
+}
+
+.picture-sec{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.image{
+    width: 26%;
+    height:20%;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: red !important;
+    font-weight: bold;
+}
+.change-color{
+    color: black !important;
+}
+#first{
+    background-color: gray;
+}
+#second{
+    background-color: pink;
+}
+#third{
+    background-color: yellowgreen;
+}
+#fourth{
+    background-color: orange;
+}

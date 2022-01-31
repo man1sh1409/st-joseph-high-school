@@ -1,0 +1,15 @@
+.about-page {
+    margin: 100px;
+   
+}
+.container h3,.container h1{
+    text-align: center;
+     color: rgb(225, 228, 74) !important;
+     text-transform: capitalize;
+
+}
+
+.container a{
+    text-decoration: none !important;
+    color: red !important;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/contact.css">
+</head>
+<body>
+    <%- include('./navbar'); -%>
+    <section class="firstsec">
+        <h2>kindly fill form</h2>
+        
+        <div class="_12conta" id="box-2">
+            <form  id="contactform" method="post" action="/contact">
+                <div class="inputag" id="field-1">
+                    <input autocomplete="off" type="text" name="firstName" placeholder=" first name" id="first" required>
+                </div>
+                <div class="inputag" id="field-1">
+                    <input autocomplete="off" type="text" name="lastName" placeholder="last name" id="last" required>
+                </div>
+                <div class="inputag" id="field-1">
+                    <input autocomplete="off" type="email" id="email" name="email" placeholder=" Your  Mail Id" style="text-transform:lowercase ;" required>
+                </div>
+                <div class="inputag" id="field-3">
+                    <input autocomplete="off" type="number" id="mobile" name="mobile" placeholder="mobile number"  required>
+                </div>
+                <button autocomplete="off" class="btn" id="login">submit</button>
+            </form>
+        </div>
+    </section>
+    <%- include("./footer.ejs"); %>
+    <!--<script src="../static/javascript/contact.js"></script>-->
+</body>
+</html>
